@@ -1,0 +1,13 @@
+#!/usr/bin/env perl
+
+use MarpaX::Languages::Bash::AST;
+use Data::Dumper;
+
+my $grammar = MarpaX::Languages::Bash::AST->new();
+
+my $input;
+print Dumper $grammar->parse($input)
+  while (
+    $input =
+    do { local $/; <> }
+  );

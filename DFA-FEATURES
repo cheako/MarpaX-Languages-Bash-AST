@@ -1,0 +1,8 @@
+This project includes an internal DFA.  To support the migration to
+another DFA and to assist DFA projects by suggesting design goals,
+here is a list of the features used and implemented by this DFA.
+
+  * Transition callbacks are used instead of next state flags.
+  * Enter/exit callbacks.
+  * Child state searches.
+  * Keep going flag.

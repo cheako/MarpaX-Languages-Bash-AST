@@ -24,12 +24,9 @@ Build.bat
 # Module::Install
 inc/
 
-# ExtUitls::MakeMaker
-/blib/
-/_eumm/
-/*.gz
-/Makefile
-/Makefile.old
-/MANIFEST.bak
-/pm_to_blib
-/*.zip
+# Vim backing storage
+.*.swp
+
+# Perltidy
+*.bak
+*.ERR
